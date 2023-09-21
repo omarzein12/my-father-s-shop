@@ -1,0 +1,37 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+background-color: #460046;
+width: 100vw;
+height: 100vh;
+position: relative;
+font-family: 'Tajawal', sans-serif;
+overflow-x: hidden;
+}
+a {
+text-decoration: none;
+}
+.container {
+padding-top: 100px;
+padding-bottom: 100px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+
+}
+.container a {position: relative;
+width: 100px;
+height: 100px;
+background-color: #00d2ff;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 20px;
+font-size: 30px;
+border-radius: 20px;
+margin: 30px;
+color: #460046;
+}
